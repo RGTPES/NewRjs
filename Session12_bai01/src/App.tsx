@@ -1,6 +1,6 @@
 
 import './App.css'
-import TodoListIndex from './component/TodoListIndex'
+import AdminIndex from './components/AdminIndex'
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <TodoListIndex />
+      <AdminIndex />
     </>
   )
 }

@@ -1,0 +1,130 @@
+.todo-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 40px 32px 32px 32px;
+  max-width: 1200px;
+  margin: 24px auto;
+}
+.todo-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 32px;
+}
+.todo-add-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.todo-input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s;
+}
+.todo-input:focus {
+  border-color: #29b6f6;
+}
+.todo-add-btn {
+  background: #29b6f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(41,182,246,0.08);
+  transition: background 0.2s;
+}
+.todo-add-btn:hover {
+  background: #039be5;
+}
+.todo-tabs {
+  margin-bottom: 18px;
+}
+.todo-tab {
+  color: #2946b6;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 18px;
+}
+.todo-tab-active {
+  color: #2946b6;
+}
+.todo-tab-underline {
+  width: 180px;
+  height: 3px;
+  background: #2946b6;
+  margin-top: 2px;
+  border-radius: 2px;
+}
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  background: #f6f8f9;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 0 18px 0 0;
+  min-height: 56px;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #888;
+}
+.todo-checkbox-label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 12px;
+  cursor: pointer;
+  padding: 18px 0 18px 18px;
+}
+.todo-checkbox-label input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  accent-color: #2946b6;
+  margin-right: 8px;
+}
+.todo-edit-input {
+  font-size: 1.1rem;
+  padding: 4px 8px;
+  border: 1px solid #29b6f6;
+  border-radius: 4px;
+  outline: none;
+}
+.todo-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.todo-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.todo-action-btn.edit:hover {
+  background: #e3f2fd;
+}
+.todo-action-btn.delete:hover {
+  background: #ffebee;
+}
