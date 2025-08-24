@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    border: 3px solid black;
+    width: 80vw;
+    height: 60vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+.right{
+    text-align: right;
+}
+.right div{
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+table{
+    width: 100%;
+}
+.right select{
+    border: 2px solid rgb(211, 211, 211);
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+}
+.right input{
+    border: 2px solid rgb(211, 211, 211);
+    width: 290px;
+    height: 35px;
+    border-radius: 5px;
+}
+table th{
+    color: rgb(174, 174, 174) !important;
+}
+table td{
+    color: rgb(77, 77, 77) !important;
+    vertical-align: middle;
+}
+.active{
+    background-color: #f6ffed !important;
+    width: 150px !important;
+    height: 30px;
+    margin-left: 60px;
+    border: 1px solid #daf5c4;
+    border-radius: 5px;
+    color: #85b960;
+}
+.disconnect{
+    background-color: #fff1f0 !important;
+    width: 150px !important;
+    height: 30px;
+    margin-left: 60px;
+    border: 1px solid #ffe1df;
+    border-radius: 5px;
+    color: #e2799d;
+}
+.function{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.block{
+    background-color: #f9f0ff !important;
+    border: 1px solid rgb(136, 6, 159);
+    border-radius: 5px;
+    color: rgb(136, 6, 159);
+}
+.change{
+    background-color: #fff7e6 !important;
+    border: 1px solid #a89a82;
+    border-radius: 5px;
+    color: #bc9c78;
+}
+.delete{
+    background-color: #fff1f0 !important;
+    border: 1px solid #ffe1df;
+    border-radius: 5px;
+    color: #e2799d;
+}
+footer div{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+footer div button{
+    border-radius: 50%;
+    border: 2px solid rgb(216, 215, 215);
+}
+.select{
+    background-color: #2563eb;
+    color: white;
+}
