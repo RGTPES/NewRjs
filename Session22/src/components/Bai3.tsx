@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Button } from "antd";
-import Photo1 from "./Photo1.png"; 
-import Img2 from "./Img2.png"; 
+
 
 
 const { Meta } = Card;
@@ -15,7 +14,7 @@ export default function Bai3() {
         cover={
           <img
             alt="MacBook Air 2018"
-            src={Photo1} 
+            
           />
         }
       >
@@ -41,7 +40,7 @@ export default function Bai3() {
         cover={
           <img
             alt="MacBook Pro 2019"
-            src={Img2}
+            
           />
         }
       >
