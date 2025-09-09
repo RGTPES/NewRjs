@@ -24,7 +24,7 @@ export default function KeyTracker() {
         fontWeight: "bold"
       }}
     >
-      {<span>{key}</span>}
+      {key && <span>{key}</span>}
     </div>
   )
 }

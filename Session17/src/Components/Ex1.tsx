@@ -7,7 +7,7 @@ type User = {
 export default function Ex1({name}: User) {
   return (
     <div>
-      <h1>{name}</h1>
+      <h1>Ho va Ten : {name}</h1>
     </div>
   )
 }

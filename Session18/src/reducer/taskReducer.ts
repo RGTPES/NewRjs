@@ -7,6 +7,6 @@ type Action=
 
 
 
-const TaskReducer = (state:Task[],action:Action)=>{
-
-}
+export const TaskReducer = (state:Task[],action:Action):Task[]=>{
+  
+}    

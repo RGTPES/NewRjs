@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import './index.css'
+import './index.css'    
 type BaseButtonProps = {
     htmlType?: "button" | "reset"| "submit";
     id?:string;

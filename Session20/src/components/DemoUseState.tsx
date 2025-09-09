@@ -28,6 +28,7 @@ const [User,setUser] = useState({
   address:'',
   gender:'',
 });
+
 const handleChangeName = (e:React.ChangeEvent<HTMLInputElement>)=>{
   setUser({...User,name:e.target.value});
 }
