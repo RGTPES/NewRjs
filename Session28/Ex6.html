@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const delay = (ms) =>{
+            return new Promise((resolve)=>{
+                setTimeout(resolve,ms)
+            })
+        }
+         const runTask= async () =>{
+            await delay(1000);
+            console.log("Run Task 1");
+             await delay(1500);
+           
+             console.log("Run Task 2");
+             await delay(2000);
+             console.log("Run Task 3");
+            console.log("Task 3 done");
+            
+            
+            
+        }
+        runTask();
+    </script>
+</body>
+</html>

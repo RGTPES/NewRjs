@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let newArr = [];
+        const myFilter=(arr,find,callback)=>{
+            for(let i =0;i<arr.length;i++){
+                if(find === arr[i]){
+                    newArr.push(arr[i]);
+                }
+            }
+            callback(newArr);
+        };
+        const handleShow = (result) =>{
+            console.log(result);
+            
+
+        }
+        const number = [1,2,3,2,2,4,5,6];
+        myFilter(number,1,handleShow);
+    </script>
+    
+</body>
+</html>
