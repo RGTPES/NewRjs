@@ -1,0 +1,213 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "dateOfBirth": "2006-04-07",
+      "email": "nguyenvana@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Tran Thi B",
+      "dateOfBirth": "2005-09-12",
+      "email": "tranthib@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Le Van C",
+      "dateOfBirth": "2004-11-23",
+      "email": "levanc2004@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Pham Thi D",
+      "dateOfBirth": "2007-02-18",
+      "email": "phamthid2007@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Hoang Van E",
+      "dateOfBirth": "2003-06-30",
+      "email": "hoangvane03@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Do Thi F",
+      "dateOfBirth": "2005-01-14",
+      "email": "dothif05@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Bui Van G",
+      "dateOfBirth": "2006-07-25",
+      "email": "buivang2006@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Nguyen Thi H",
+      "dateOfBirth": "2004-03-19",
+      "email": "nguyenthih2004@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Pham Van I",
+      "dateOfBirth": "2003-08-09",
+      "email": "phamvani2003@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Tran Van J",
+      "dateOfBirth": "2007-12-01",
+      "email": "tranvanj2007@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Nguyen Van K",
+      "dateOfBirth": "2006-05-21",
+      "email": "nguyenvank2006@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Le Thi L",
+      "dateOfBirth": "2005-10-30",
+      "email": "lethil2005@gmail.com"
+    },
+    {
+      "id": 13,
+      "name": "Do Van M",
+      "dateOfBirth": "2004-02-11",
+      "email": "dovanm2004@gmail.com"
+    },
+    {
+      "id": 14,
+      "name": "Bui Thi N",
+      "dateOfBirth": "2003-11-27",
+      "email": "buithin2003@gmail.com"
+    },
+    {
+      "id": 15,
+      "name": "Hoang Van O",
+      "dateOfBirth": "2006-06-16",
+      "email": "hoangvano2006@gmail.com"
+    },
+    {
+      "id": 16,
+      "name": "Pham Thi P",
+      "dateOfBirth": "2007-09-05",
+      "email": "phamthip2007@gmail.com"
+    },
+    {
+      "id": 17,
+      "name": "Tran Van Q",
+      "dateOfBirth": "2005-04-29",
+      "email": "tranvanq2005@gmail.com"
+    },
+    {
+      "id": 18,
+      "name": "Nguyen Thi R",
+      "dateOfBirth": "2004-08-22",
+      "email": "nguyenthir2004@gmail.com"
+    },
+    {
+      "id": 19,
+      "name": "Le Van S",
+      "dateOfBirth": "2003-01-17",
+      "email": "levans2003@gmail.com"
+    },
+    {
+      "id": 20,
+      "name": "Do Thi T",
+      "dateOfBirth": "2006-11-09",
+      "email": "dothit2006@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cam",
+      "img": "img/cam.jpg",
+      "price": "10000",
+      "quantity": "100",
+      "createAt": "2025"
+    },
+    {
+      "id": 2,
+      "name": "Táo",
+      "img": "img/tao.jpg",
+      "price": "20000",
+      "quantity": "200",
+      "createAt": "2025"
+    },
+    {
+      "id": 3,
+      "name": "Chuối",
+      "img": "img/chuoi.jpg",
+      "price": "15000",
+      "quantity": "150",
+      "createAt": "2025"
+    },
+    {
+      "id": 4,
+      "name": "Xoài",
+      "img": "img/xoai.jpg",
+      "price": "25000",
+      "quantity": "120",
+      "createAt": "2025"
+    },
+    {
+      "id": 5,
+      "name": "Dưa hấu",
+      "img": "img/duahau.jpg",
+      "price": "30000",
+      "quantity": "80",
+      "createAt": "2025"
+    }
+  ],
+  "student": [
+    {
+      "id": 3,
+      "name": "Tran Thi Bich",
+      "email": "tranthibich@gmail.com",
+      "address": "Đà Nẵng",
+      "phone": "0978123456",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 4,
+      "name": "Le Van Cuong",
+      "email": "levancuong@gmail.com",
+      "address": "Hải Phòng",
+      "phone": "0909876543",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 5,
+      "name": "Pham Thi Dao",
+      "email": "phamthidao@gmail.com",
+      "address": "Cần Thơ",
+      "phone": "0965432187",
+      "status": false,
+      "create_at": "2025"
+    },
+    {
+      "id": 6,
+      "name": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "address": "Hue",
+      "phone": "0911112222",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "address": "Hue",
+      "phone": "0911112222",
+      "status": true,
+      "create_at": "2025"
+    }
+  ]
+}
