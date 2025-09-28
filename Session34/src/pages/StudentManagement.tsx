@@ -1,8 +1,8 @@
-import type { Student } from "../utils/types";
+
 import StudentForm from "../components/StudentForm";
 import StudentList from "../components/StudentList";
 import Toolbar from "../components/Toolbar";
-import { useState } from "react";
+
 
 const StudentManagement = () => {
   return (
